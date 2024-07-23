@@ -1,0 +1,30 @@
+.Product {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  border: 1px solid #f3f3f3;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  .content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .ProductText {
+    h3 {
+      font-weight: 400;
+      font-size: 14px;
+      color: #000;
+      margin-bottom: 5px;
+    }
+  }
+  button {
+    transition: opacity 0.3s ease;
+    opacity: 0.5;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

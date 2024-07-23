@@ -1,0 +1,23 @@
+body {
+  background: #e7f6ff;
+}
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 1080px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.04);
+  background: #fff;
+  margin: 85px auto 0;
+  border-radius: 20px;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.active {
+  height: 100vh;
+  overflow: hidden;
+  padding-right: 17px;
+}

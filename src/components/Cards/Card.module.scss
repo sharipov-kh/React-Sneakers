@@ -1,0 +1,60 @@
+.card {
+  position: relative;
+  border: 1px solid #f3f3f3;
+  border-radius: 40px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 20px 34px 20px; 
+  transition: box-shadow 0.3s ease, transform 0.3s ease-out;
+  &:hover {
+    box-shadow: 0 14px 25px 0 rgba(0, 0, 0, 0.06);
+    transform: translateY(-5px);
+    background: #fff;
+    cursor: pointer;
+  }
+  .card__heart {
+    cursor: pointer;
+    img {
+      position: absolute;
+      top: 25px;
+      left: 20px;
+    }
+  }
+  .card__image {
+    img {
+      width: 133px;
+      height: 112px;
+    }
+    margin-bottom: 14px;
+  }
+  .card__name {
+    p {
+      font-weight: 650;
+      font-size: 14px;
+      color: #000;
+    }
+    margin-bottom: 14px;
+  }
+  .card__price {
+    display: flex;
+    justify-content: space-between;
+    .card-price__left {
+      p {
+        font-weight: 500;
+        font-size: 11px;
+        text-transform: uppercase;
+        color: #bdbdbd;
+      }
+      b {
+        font-weight: 700;
+        font-size: 14px;
+        color: #000;
+        margin-top: 2px;
+      }
+    }
+    .card-price__right {
+      cursor: pointer;
+    }
+  }
+}
